@@ -25,7 +25,7 @@ Features:
 
 1. Wasn't able to get the remove employee selection, I believe the problem is with the query selector syntax using "DELETE" did some trial an error couldn't quite get it.
 
-[Remove Employee Challenge](https://youtu.be/jAVGsukErWk)
+[Remove Employee Challenge](https://youtu.be/aFW3423M9ps)
 
 2. The view manager selection gave me an issue, because the manager had a FOREIGNKEY because the manager is an employee but not group with the other employees.
 
