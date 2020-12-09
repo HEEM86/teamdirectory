@@ -23,7 +23,7 @@ function viewDepartments() {
     console.log(res)
     if (err) throw err;
     console.table(res);
-    // beginQuestions();
+    
   });
 }
 
@@ -31,7 +31,7 @@ function viewEmployees() {
   connection.query("SELECT * FROM employee", function (err, res, fields) {
     if (err) throw err;
     console.table(res);
-    // beginQuestions();
+    
   });
 }
 
