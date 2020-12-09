@@ -14,8 +14,7 @@ connection.connect(function (err) {
   setTimeout(beginQuestions, 1000);
 });
 
-//Declaring global variables
-// const teamMembers = [];
+
 
 function viewDepartments() {
   console.log("hello")
