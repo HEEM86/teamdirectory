@@ -1,5 +1,9 @@
 ## Team Directory Tracker
 
+[Database Work Video Link](https://youtu.be/jAVGsukErWk)
+
+
+
 
 **Description**
 
@@ -23,11 +27,18 @@ Features:
 ## Challenges :loudspeaker:
 
 
-1. Wasn't able to get the remove employee selection, I believe the problem is with the query selector syntax using "DELETE" did some trial an error couldn't quite get it.
+1. Wasn't able to get the remove employee selection, I believe the problem is with the query selector syntax using "DELETE" did some trial an error couldn't quite get it. [Remove Employee Challenge](https://youtu.be/aFW3423M9ps)
 
-[Remove Employee Challenge](https://youtu.be/aFW3423M9ps)
+
+Snapshot of what I get in the terminal
+
+![DeleteError](./images/deleteError.png)
 
 2. The view manager selection gave me an issue, because the manager had a FOREIGNKEY because the manager is an employee but not group with the other employees.
+
+3. After selecting "View Departments" the departments display, it doesn't loop back to the questions? I tried calling the function, right after the view departments code. 
+
+![]()
 
 
 ## Author :zap:
