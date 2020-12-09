@@ -24,5 +24,5 @@ VALUES ("Oscar", "Johnson", 3, NULL);
 INSERT INTO employee (first_name, last_name, role_id, manager_id) 
 VALUES ("Jessica", "West", 1, 1);
 
-DELETE FROM employee (first_name, last_name, role_id)
+DELETE FROM employee WHERE role (first_name, last_name, role_id)
 VALUES ("Tommy", "Jefferson", 4, NULL)
