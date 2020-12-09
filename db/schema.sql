@@ -33,5 +33,5 @@ CREATE TABLE employee (
   FOREIGN KEY (manager_id) REFERENCES employee(id)
 );
 
-DELETE FROM employee WHERE role (first_name, last_name, role_id)
-VALUES ("Tommy", "Jefferson", 4, NULL)
+-- DELETE FROM employee WHERE role (first_name, last_name, role_id)
+-- VALUES ("Tommy", "Jefferson", 4, NULL)
