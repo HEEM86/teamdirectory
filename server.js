@@ -15,7 +15,7 @@ connection.connect(function (err) {
 });
 
 //Declaring global variables
-const teamMembers = [];
+// const teamMembers = [];
 
 function viewDepartments() {
   console.log("hello")
@@ -24,8 +24,10 @@ function viewDepartments() {
     if (err) throw err;
     console.table(res);
     
-  });
-  beginQuestions()
+  })
+   .then (function() {
+    setTimeout(beginQuestions, 1000);
+  })
 }
 
 function viewEmployees() {
