@@ -36,9 +36,9 @@ Snapshot of what I get in the terminal
 
 2. The view manager selection gave me an issue, because the manager had a FOREIGNKEY because the manager is an employee but not group with the other employees.
 
-3. After selecting "View Departments" the departments display, it doesn't loop back to the questions? I tried calling the function, right after the view departments code. 
+3. After selecting "View Departments" the departments display, it doesn't loop back to the questions? I tried using a setTime to call the function, right after the view departments code. 
 
-![]()
+![setTimerFunc](./images/setTimer.png)
 
 
 ## Author :zap:
